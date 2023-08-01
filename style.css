@@ -1,0 +1,44 @@
+h1 {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+}
+
+h2 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Quicksand', sans-serif;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #000;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+}
+
+footer a {
+    display: inline;
+    color: #fff;
+}
+footer p {
+    display: inline;
+    color: #fff;
+}
