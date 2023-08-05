@@ -1,6 +1,11 @@
+/*
+set the background back on mobile devices, even when i scroll
+ */
+
 body {
     background-color: #000;
     font-family: 'Quicksand', sans-serif;
+    overflow: hidden;
 }
 
 h1 {
