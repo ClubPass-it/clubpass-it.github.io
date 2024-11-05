@@ -2,22 +2,59 @@
   text-align: center;
 }
 
+.section {
+  margin: 20px;
+  border-radius: 16px;
+  color: white;
+  flex-direction: row;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  transition: all 1s ease;
+}
+
 .section-box {
-  padding: 20px;
+  padding: 0px;
   margin: 20px;
   border-radius: 16px;
   background: rgba(255, 255, 255, 0.05);
   color: white;
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
-  flex-direction:row;
+  flex-direction: column;
   display: flex;
   justify-content: left;
   transition: all 0.3s ease;
   cursor: pointer;
+  text-align: left;
 }
+
 /*Sectionbox hover effect*/
 .section-box:hover {
   transform: scale(1.05);
-  transition: all 0.3s ease;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s ease;
+}
+
+
+.feed-button {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.feed-button:hover {
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+  transition: all 0.5s ease;
 }
